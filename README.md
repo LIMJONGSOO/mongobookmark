@@ -1,68 +1,111 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Reactris 
 
-In the project directory, you can run:
+## Tetris Toy Project of limjs using react and figma
 
-### `yarn start`
+### develop complete / version 1.0
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+목표
+- React의 Virtual DOM Rendering & Component 구조 이해
+- figma로 기획 및 퍼블리싱 경험
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+0. 개발완료
 
-### `yarn test`
+    - React Rendering & LifeCycle & Component 구조 이해
+    - 전과정 작업(figma를 이용해서 기획부터 퍼블리싱 작업 개발 테스트) 
+    - figma를 바탕으로 css 개발 및 적용
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+1. 프로젝트 설명
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - React 기반의 테트리스 웹 게임입니다.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+     
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. 프로젝트 일정 계획
 
-### `yarn eject`
+   <table>
+       <thead>
+           <tr>
+               <th rowspan=3>구분</th>
+               <th colspan=12>기간</th>
+           </tr>
+           <tr>
+               <th colspan=12>2020.04</th>
+           </tr>
+           <tr>
+               <th>10</th>
+               <th>11</th>
+               <th>12</th>
+               <th>13</th>
+               <th>14</th>
+               <th>15</th>
+               <th>16</th>
+               <th>17</th>
+               <th>18</th>
+               <th>19</th>
+               <th>20</th>
+               <th>21</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td>설계</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+           <tr>
+               <td>개발</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td></td>
+               <td></td>
+           </tr>
+           <tr>
+               <td>테스트</td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
+           </tr>
+       </tbody>
+   </table>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   
+3. wireframe 설계 및 퍼블리싱
+   ![wireframe](./wireframe.JPG)
+   
+4.  참고
+   - [기획,설계 및 퍼블리싱(figma)](https://www.figma.com/file/yoOCik1e4GCMHbwmjjotMC/Tetris-Toy-Project-of--limjs?node-id=0%3A1)
+   - [source repository](https://github.com/LIMJONGSOO/Tetris.git)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. 버전업 필요사항
+    - 점수에 따른 Tetromino 내려오는 속도 증가 로직
+   
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

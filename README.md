@@ -95,8 +95,10 @@
 
    
 3. wireframe 설계 및 퍼블리싱
-   
+   ![wireframe](./wireframe.JPG)
+
 4.  참고
+    - [기획,설계 및 퍼블리싱(figma)](https://www.figma.com/file/eduKIeQJv1y7CBTOKQDzlQ/MongoBookMark?node-id=0%3A1)
 
 기술
 - figma

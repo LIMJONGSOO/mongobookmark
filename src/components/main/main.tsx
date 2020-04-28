@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+import logo from '/srassets/images/logo.png';
 import './App.scss';
 
-export default class App extends Component {
+export default class Main extends Component {
   state = {users: []}
 
   conponentDidMount() {

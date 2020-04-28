@@ -35,6 +35,7 @@
                <th>02</th>
                <th>03</th>
                <th>04</th>
+               <th>05</th>
            </tr>
        </thead>
        <tbody>
@@ -45,7 +46,8 @@
                <td style="background-color:#F7DF1E;">✓</td>
                <td style="background-color:#F7DF1E;">✓</td>
                <td style="background-color:#F7DF1E;">✓</td>
-               <td></td>
+               <td style="background-color:#F7DF1E;">✓</td>
+               <td style="background-color:#F7DF1E;">✓</td>
                <td></td>
                <td></td>
                <td></td>
@@ -61,7 +63,8 @@
                <td></td>
                <td></td>
                <td></td>
-               <td style="background-color:#F7DF1E;">✓</td>
+               <td></td>
+               <td></td>
                <td style="background-color:#F7DF1E;">✓</td>
                <td style="background-color:#F7DF1E;">✓</td>
                <td style="background-color:#F7DF1E;">✓</td>
@@ -83,6 +86,7 @@
                <td></td>
                <td></td>
                <td></td>
+               <td></td>
                <td style="background-color:#F7DF1E;">✓</td>
                <td style="background-color:#F7DF1E;">✓</td>
            </tr>
@@ -91,8 +95,10 @@
 
    
 3. wireframe 설계 및 퍼블리싱
-   
+   ![wireframe](./wireframe.JPG)
+
 4.  참고
+    - [기획,설계 및 퍼블리싱(figma)](https://www.figma.com/file/eduKIeQJv1y7CBTOKQDzlQ/MongoBookMark?node-id=0%3A1)
 
 기술
 - figma

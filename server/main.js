@@ -3,6 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const api = require('./routes/index');
+const cors = require('cors')
 const MONGO_URL = 'mongodb+srv://MongoBookMark:j1357915@cluster0-ljgc0.mongodb.net/test?retryWrites=true&w=majority';
 
 //conncet to mongodb server
@@ -21,6 +22,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(bodyParser.json());
+app.use('/api', cors());
 app.use('/api', api);
  
 app.listen(port, () => {

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from '/srassets/images/logo.png';
+import logo from 'assets/images/logo.png';
 import './App.scss';
 
 export default class Main extends Component {
@@ -20,5 +20,5 @@ export default class Main extends Component {
         )}
       </div>
     )
-  );
+  };
 }
